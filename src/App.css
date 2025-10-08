@@ -1,0 +1,39 @@
+.c-item{
+    height: 300px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+} 
+
+
+
+.boopathi{
+  height: 600px;
+
+}
+
+.boopathi-img{
+  height: 100%;
+  object-fit: cover;
+}
+
+.iniyan ul{
+  list-style: none;
+}
+
+.iniyan ul li{
+  padding-top: 5px;
+}
+
+.iniyan ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.foot{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+

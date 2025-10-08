@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.c-item{
+    height: 550px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness();
+} 
+
+.span2{
+ font-size: 90px;
+ text-transform: capitalize;
+ color: darkturquoise;
+}
+.parra{
+    text-transform: capitalize;
+    font-size: 70px !important;
+    text-align: center !important;
+}
+
+.abopara p{
+    width: 550px;
+    font-size: 18px;
+    text-align: justify;
+}
+.aboimg img{
+    height: 500px;
+    width: 600px;
+}
+.abo{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+marquee img{
+    height: 500px;
+    width: 500px;
+}
+
+.expree11{
+    display: flex;
+    gap: 10px;
+}
+.expree11 img{
+    height: 100px;
+}
+.expar span{
+    width: 200px;
+}
+.expre{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.reviw img{
+    width: 500px;
+    
+}
+.reviw{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+} 
+
+@media(max-width:768px){
+    .abopara p{
+    width: 350px;
+    font-size: 18px;
+    text-align: justify;
+}
+.aboimg img{
+    height: 400px;
+    width: 350px;
+}
+.abo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.expre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.reviw img{
+    width: 350px;
+    
+}
+.reviw{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+}
